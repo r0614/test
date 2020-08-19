@@ -23,5 +23,6 @@ urlpatterns = [
     path('about/',views.aboutus,name='about'),
     path('',views.aboutus,name='aboutus'),
     url('blog.*/', include('blog.urls')),
+    url('mycontacts.*/',include('mycontacts.urls')),
     
 ]
